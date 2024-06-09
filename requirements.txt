@@ -1,5 +1,5 @@
 google-generativeai
-llama-index==0.10.14
+llama-index==0.10.43
 llama-index-llms-gemini
 llama-index-embeddings-gemini
 llama-index-embeddings-openai

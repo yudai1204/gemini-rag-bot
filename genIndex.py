@@ -11,6 +11,8 @@ import sys
 import logging
 import sys
 
+# Geminiを使って埋め込みを作成するかどうか
+# 基本的にはOpenAIのほうが高精度なため、Falseにしておく
 USE_GEMINI = False
 
 # ログレベルの設定

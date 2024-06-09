@@ -1,9 +1,9 @@
 import mesop as me
 import mesop.labs as mel
 
-# from util.chatgpt import get_response
-# from util.claude import get_response
-from util.gemini import get_response
+# from util.gemini import get_response
+
+from util.rag import get_response
 
 
 @me.page(
