@@ -16,7 +16,7 @@ index = load_index_from_storage(storage_context)
 
 custom_prompt = PromptTemplate(
     """\
-Please use Japanese and provide detailed answers.
+Please use Japanese and provide detailed long answers.
 Given a conversation (between Human and Assistant) and a follow up message from Human, \
 rewrite the message to be a standalone question that captures all relevant context \
 from the conversation.
@@ -37,7 +37,7 @@ query_engine = index.as_query_engine()
 
 def get_response(input: str, history: list[mel.ChatMessage]):
     custom_chat_history = []
-    for message in history:
+    for message in history[:8]:
         custom_chat_history.append(
             ChatMessage(
                 role=(
