@@ -2,8 +2,6 @@ from llama_index.core import (
     Settings,
     SimpleDirectoryReader,
     VectorStoreIndex,
-    SimpleDirectoryReader,
-    VectorStoreIndex,
 )
 from llama_index.embeddings.gemini import GeminiEmbedding
 import logging
