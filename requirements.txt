@@ -1,4 +1,5 @@
-openai
 google-generativeai
-anthropic
-requests
+llama-index==0.10.14
+llama-index-llms-gemini
+llama-index-embeddings-gemini
+llama-index-embeddings-openai
