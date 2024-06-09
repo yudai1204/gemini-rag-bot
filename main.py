@@ -3,7 +3,7 @@ import mesop.labs as mel
 
 # from util.gemini import get_response
 
-from util.rag import get_response
+from util.llama_index_rag import get_response
 
 
 @me.page(
